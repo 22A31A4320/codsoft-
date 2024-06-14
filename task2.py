@@ -26,7 +26,7 @@ while True:
     elif a=='3':
       print("result:",mul(n1,n2))
     elif a=='4':
-      print("result:",div(x,y))
+      print("result:",div(n1,n2))
     b=input("Do you want to do another calculation(yes/no):")
     if b.lower()!="yes":
       break
